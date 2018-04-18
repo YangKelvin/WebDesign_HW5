@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+a:-webkit-any-link
+{
+    cursor: pointer;
+}
+.header
+{
+    /* height: 60px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 46px;
+}
+
+.header a
+{
+    font-size: 20px;
+}
+.header a:hover
+{
+    text-decoration: underline;
+}
+.header .nav
+{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.header .nave-item
+{
+    padding-left: 40px;
+}
+
+.header .login-area
+{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.header .login-area .login
+{
+    margin-right: 10px;
+}
+.logo img
+{
+    width: 130px;
+    height: 84px;
+}
+/*---------------------------------------- */
+
+.contain
+{
+    margin-left: 46px;
+    margin-right: 46px;
+}
+
+.main-pic
+{
+    width: 1188px;
+    height: 482px;
+}
+
+.area1 .small-block-area
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1188px;
+    margin-top: 32px;
+}
+.area1 .small-block
+{
+    width: 373px;
+    height: 241px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+
+
+
+.area1 .small-block .block-text
+{
+    margin: auto 0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.area1 .small-block .block-img
+{
+    margin: auto 0;
+}
+
+.area1 .small-block .block-img img
+{
+    width: 160px;
+    height: 144px;
+}
+/*---------------------------------------- */
+
+.area2
+{
+    margin-top: 34px;
+    width: 1188px;
+}
+.area2 .small-middle-area
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.area2 .middle-pic
+{
+    width: 577px;
+    height: 500px;
+    margin-right: 37px;
+}
+
+.area2 .small-pic-area
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.area2 .left-pic
+{
+    margin-right: 20px;
+}
+
+
+.area2 .small-pic
+{
+    width: 274px;
+    height: 245px;
+}
+/*---------------------------------------- */
+.MANC-area
+{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 97px;
+    justify-content: center;
+}
+.MANC-area li
+{
+    list-style: none;
+    padding-bottom: 25px;
+}
+.MANC-area li a
+{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.MANC-area li a:hover
+{
+    /* color: #fc3a63; */
+    text-decoration: underline;
+}
+
+.MANC-area .block
+{
+    /* width: 170px; */
+    margin-right: 37px;
+}
+
+.MANC-area .title
+{
+    /* width: 170px; */
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.MANC-area .icon-area
+{
+    display: flex;
+    justify-content: space-between;
+}
+.MANC-area .icon-area img
+{
+    width: 48px;
+    height: 48px;
+}
+/*---------------------------------------- */
+footer
+{
+    margin-left: 46px;
+    margin-right: 46px;
+
+    display: flex;
+    flex-direction: row;
+}
+footer img
+{
+    width: 48px;
+    height: 48px;
+}
+
+footer .f-text
+{
+    /* font-size: 20px; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
